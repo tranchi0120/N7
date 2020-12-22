@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".product.Activity_voucher">
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:background="#fff"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="@drawable/botron3"
+        android:gravity="center"
+        android:text="Mã Giảm giá từ Shopee | Mã giảm giá từ đối tác"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:textColor="#8B755E5E"
+        android:background="#EEE"
+        android:textColorHint="#F8F5F5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Nhập mã giảm giá" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="Lưu"
+        android:textSize="10dp"
+        android:layout_marginLeft="330dp"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:padding="0dp"
+        android:background="@drawable/botron"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <ImageView
+            android:src="@drawable/vi"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTenSanPham"
+                android:text="Giảm 30k đơn tối thiểu 250k"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvTopSanPham"
+                android:layout_marginTop="10dp"
+                android:text="Sắp hết hạn: Còn 3 ngày"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:layout_marginLeft="220dp"
+                    android:textSize="12sp"
+                    android:textColor="#1626B5"
+                    android:text="Điều kiện"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="0dp"
+        android:background="@drawable/botron"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <ImageView
+            android:src="@drawable/danhgia1"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTenSanPham1"
+                android:text="Săn vocher 'Ngay Và Luôn'"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvTopSanPham1"
+                android:layout_marginTop="10dp"
+                android:text="Sắp hết hạn: Còn 3 ngày"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:layout_marginLeft="220dp"
+                    android:textSize="12sp"
+                    android:textColor="#1626B5"
+                    android:text="Điều kiện"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/pro">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/pro"
+        >
+    </ImageView>
+
+</LinearLayout>
+
+

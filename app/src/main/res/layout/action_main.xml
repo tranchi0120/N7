@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:id="@+id/headerTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ee4e2e"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="Shopee Feed"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="138dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/giohang" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/tinnhan" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rootView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/headerBottom"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#fff"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="65dp"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/bt1"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/hinhtinnhan"
+
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Thời gian"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/bt2"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ngoisao"
+
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Shoppe Review "
+                        android:textAlignment="center"
+                        android:textColor="#F81414" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/bt3"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shope1"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Siêu Sale "
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/bt4"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shopeidol"
+
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Shoppe Idol"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/bt5"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shopei2"
+
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Thời trang"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/logosp"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="shopeevn"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a3" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#55F6F8F2"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/tym"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="236"
+
+                    android:gravity="center"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phanhoi"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="48"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/thich"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="37"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="122dp"
+                    android:layout_height="match_parent"
+                    android:text="chiber.store"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kính mời anh chị ghé thăm để săn ngay những món đồ gia dụng thông minh với giá từ 1K" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp">
+
+                <TextView
+                    android:layout_width="122dp"
+                    android:layout_height="match_parent"
+                    android:text="lieuphan0310"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shop chuyên thời trang cho các bé hạt dẻ, ghé Shop để nhận ngay các mã giảm giá cực hot"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/binhluan"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:background="#C9CAC8"
+                    android:text="Thêm bình luận....."
+                    android:backgroundTint="#FAFAFA"
+                    >
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logokh" />
+
+                <TextView
+                    android:layout_width="87dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="hitybeauty"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dungshope" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/tym"
+                    android:layout_width="37dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="236"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phanhoi"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="48"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/thich"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="3734"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:text="lieuphan0310"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shop chuyên thời trang cho các bé hạt dẻ, ghé Shop để nhận ngay các mã giảm giá cực hot"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:text="minhdat2708@"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:text="Hàng khá chất lượng và giống với ảnh"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/binhluan"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:background="#C9CAC8"
+                    android:text="Thêm bình luận....."
+                    android:backgroundTint="#FAFAFA"
+                    >
+
+                </EditText>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/logosp"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="shopeevn"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/shopefull"></ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#55F6F8F2"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/tym"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="236"
+
+                    android:gravity="center"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phanhoi"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="48"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/thich"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="37"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="match_parent"
+                    android:text="lieuphan0310"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shop chuyên thời trang cho các bé hạt dẻ, ghé Shop để nhận ngay các mã giảm giá cực hot"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="match_parent"
+                    android:text="lieuphan0310"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shop chuyên thời trang cho các bé hạt dẻ, ghé Shop để nhận ngay các mã giảm giá cực hot"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/binhluan"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:background="#C9CAC8"
+                    android:text="Thêm bình luận....."
+                    android:backgroundTint="#FAFAFA"
+                    >
+                </EditText>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

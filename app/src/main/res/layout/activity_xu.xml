@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".product.Activity_xu"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/button1"
+        android:padding="10dp"
+        android:background="#fff"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#A1F3DB08"
+
+        android:gravity="center"
+        android:text="Ưu đãi Shopee Xu"
+        android:textSize="38sp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:padding="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <ImageView
+            android:src="@drawable/xu"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tvTenSanPham"
+                android:text="Làm các nhiệm vụ để nhận thêm xu"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"
+                android:textColor="#E80F0F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:gravity="center"
+        android:padding="5dp"
+        android:src="@drawable/xu1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <TextView
+
+        android:padding="5dp"
+        android:background="#5C112255"
+        android:textColor="#B61B1B"
+        android:text="Xem chi tiết nhiệm vụ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_brightness_1_24"
+            android:layout_marginLeft="80dp"
+            android:text="Điểm danh ngày"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_brightness_1_24"
+            android:layout_marginLeft="80dp"
+            android:text="Theo dõi shop"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_brightness_1_24"
+            android:layout_marginLeft="80dp"
+            android:text="Liên kết tài khoản ngân hàng"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_marginLeft="70dp"
+            android:layout_height="wrap_content"
+            android:text="Xem tất cả thử thách"
+            android:textColor="#FDFCFC"
+            android:background="@drawable/botron2"/>
+    </LinearLayout>
+</LinearLayout>

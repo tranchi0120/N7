@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#f7f7f7">
+
+    <ImageView
+        android:id="@+id/countryFlagIv"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:padding="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/countryNameTv"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/countryFlagIv"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/populationTv"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryNameTv"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/countryFlagIv"
+        android:text=""
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/areaTv"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/populationTv"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="3dp"
+        android:text=""
+        android:textColor="#777777" />
+</RelativeLayout>

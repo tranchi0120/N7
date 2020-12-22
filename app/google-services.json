@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26566586455",
+    "project_id": "dangnhap-74cda",
+    "storage_bucket": "dangnhap-74cda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26566586455:android:ee3887b79e0f5ba8f87312",
+        "android_client_info": {
+          "package_name": "com.example.nhom7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26566586455-lbjiihreugi1dlipekjdpga68o1198f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBskOKvbjfwDvXbRTpNwouDdlYeHwCfePQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26566586455-lbjiihreugi1dlipekjdpga68o1198f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

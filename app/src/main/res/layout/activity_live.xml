@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Live"
+    android:background="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+        <LinearLayout
+
+            android:background="@drawable/shopee333"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:id="@+id/headerTop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shopee Live"
+                android:layout_marginTop="18dp"
+                android:textSize="20dp"
+                android:textColor="#fff" />
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="138dp"
+                android:background="@drawable/shopee12" />
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shopee13" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rootView"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/headerBottom">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:background="#fff">
+            <LinearLayout
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text1"
+                    android:background="@drawable/sa1"
+                    android:layout_width="60dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_height="40dp"
+
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Tất Cả"
+                    android:textAlignment="center"
+                    android:textColor="#ee4e2e" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:background="@drawable/sa2"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Sắp Diễn Ra"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:background="@drawable/sa3"
+                    android:layout_width="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="40dp"
+
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Idol Review"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:background="@drawable/sa4"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Mới Nhất"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:background="@drawable/sa5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Xem Lại"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eeaeae"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+                    <ImageButton
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shopee10"
+                        />
+                    <ImageButton
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/shopee11"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shopee61"
+                            />
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/shopee64"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shopee10"
+                            />
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/shopee65"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+                    <ImageButton
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shopee10"
+                        />
+                    <ImageButton
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/shopee11"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shopee61"
+                            />
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/shopee64"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shopee10"
+                            />
+                        <ImageButton
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/shopee65"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/background"
+        app:itemBackground="@color/background"
+        app:itemTextColor="@color/colorTextPrimary"
+        app:itemIconTint="@color/colororange"
+        app:menu="@menu/menumain"
+        android:layout_alignParentBottom="true">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

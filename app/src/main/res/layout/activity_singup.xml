@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singup"
+    android:orientation="vertical"
+    android:background="#EEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/icon"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng Ký"
+            android:textSize="25dp"
+            android:textColor="#070707"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_margin="20dp"
+            android:background="@drawable/botron123"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Enter your email..."
+            android:paddingVertical="15dp"
+            android:textColor="#000"
+            android:inputType="textWebEmailAddress"
+            android:paddingLeft="60dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/botron123"
+        android:hint="Enter your password..."
+        android:paddingVertical="15dp"
+        android:paddingLeft="60dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/botron123"
+        android:hint="Enter your password..."
+        android:paddingVertical="15dp"
+        android:paddingLeft="60dp"
+        android:textColor="#000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#C59A5B"
+        android:text="Đăng ký"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

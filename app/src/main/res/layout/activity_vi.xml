@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".product.Activity_vi">
+    <ImageButton
+        android:id="@+id/button1"
+        android:padding="10dp"
+        android:background="#fff"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Vì sự an toàn của chính bạn"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:padding="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTenSanPham"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:fontWeight="400"
+                android:layout_height="match_parent"
+                android:rotationX="8"
+                android:text="Để đám bảo Ví Shopee luôn được bảo mật, bạn vui lòng thiết lập
+mã PIN Bằng các thông tin cá nhân hóa.Không dùng các thông tin dễ đoán như ngày tháng năm sinh, số điện thoại..."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/look"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="105dp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="wrap_content"
+            android:text="Thiết lập Ví AriPay"
+            android:textColor="#FDFCFC"/>
+
+    </LinearLayout>
+</LinearLayout>
